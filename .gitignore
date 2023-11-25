@@ -10,6 +10,11 @@ __pycache__/
 cuda
 test
 
+# Config and Passwords
+config.json
+config.js
+config.
+
 # Distribution / packaging
 .Python
 build/
