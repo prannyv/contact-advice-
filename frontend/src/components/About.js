@@ -5,12 +5,11 @@ export const About = () => {
 
 
     return(
-        <div className="about">
-            <div style={{backgroundColor: "red", height: "4rem"}}></div>
+        <div className="about" id="about">
 
             {/* container for all the horizontal cards */}
             <div>
-                <div style={{display: "flex", marginBottom: "18px"}}>
+                <div style={{display: "flex", marginBottom: "18px", marginTop: "17vw"}}>
                     <div style={{flex: 3}}>
                         <div style={{marginLeft: "6rem", marginRight: "4rem"}}>
                             <p style={{fontSize: "48px", fontWeight: "bold", marginBottom: "4px", color: "#4E9DE0"}}>The Problem</p>

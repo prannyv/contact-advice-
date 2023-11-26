@@ -1,0 +1,406 @@
+[
+  {
+    "input_text": "yeah bro same site",
+    "output_text": "since u got that site "
+  },
+  {
+    "input_text": "I love goose down IT IS THR BEST EVER",
+    "output_text":"Goose down is my favourite thing in the world"
+  },
+  {
+    "input_text": "lmfao yeah bro but consider u in bozo queue all averages low fuck bro",
+    "output_text": "yeah this message responded to an earlier message idk if my gpa qualifies lol "
+  },
+  {
+    "input_text": "basically she did 8 month internship then one term abroad this is such a lit method tho",
+    "output_text": "u can do abroad prolly "
+  },
+  {
+    "input_text": "i think im like basically done thinking abt ivey i think im not gonna do it not for me i jus wanna be a little dev not a consult or pm",
+    "output_text": "ur gpa is good "
+  },
+  {
+    "input_text": "yeah well its not a loss lol im deciding not to do it i think its a waste of my time and money",
+    "output_text": "ivey mid bro for tech at least no loss "
+  },
+  {
+    "input_text": "this is such a lit method this message responded to an earlier message tho this message responded to an earlier message",
+    "output_text": "ye "
+  },
+  {
+    "input_text": "dayum the goat school bro eileens dad went to tsinghua lol",
+    "output_text": "yeah thats cool anson went to tsinghua for 4 months "
+  },
+  {
+    "input_text": "yeah bro",
+    "output_text": "lol thats crazy i lowkey wanna go like singapore or smth "
+  },
+  {
+    "input_text": "goat gaukau",
+    "output_text": "its so cheap "
+  },
+  {
+    "input_text": "yeah bry was talking abt singapore too u guys should go bro its not abt school lmao",
+    "output_text": "apparently so easy compared to uw as well "
+  },
+  {
+    "input_text": "abroad is sick cuz like",
+    "output_text": "yeah but hes in eng lol "
+  },
+  {
+    "input_text": "its the only time in your life you ll b able to travel responsibility free like til u retire or until ur financially free",
+    "output_text": "might be gg for him "
+  },
+  {
+    "input_text": "lmao what r u talking abt",
+    "output_text": "could be in a year could be in a year this message responded to an earlier message "
+  },
+  {
+    "input_text": "yeah keep going",
+    "output_text": "i mean i technically have no debt "
+  },
+  {
+    "input_text": "yeah bro",
+    "output_text": "i just have very little networth "
+  },
+  {
+    "input_text": "financially free doesn t mean clear of debt bro",
+    "output_text": "like 500 bucks networth "
+  },
+  {
+    "input_text": "i mean like u don t have to work again u know what it means actually",
+    "output_text": "yeahbutsaywelandgoogle "
+  },
+  {
+    "input_text": "noooooooo bro cuz u have to work to live and to pay rent and mortgage bruh what u think free means",
+    "output_text": "then were financially free for 2 months or so right "
+  },
+  {
+    "input_text": "im talking abt your life",
+    "output_text": "i mean next year bro i dont need to be eren yeager bro "
+  },
+  {
+    "input_text": "yeah bro but even then like dayum i can t explain feel like even",
+    "output_text": "yeah i mean if i live with my parents ig "
+  },
+  {
+    "input_text": "but yeah bro yo quick question is there a better way to find successorpredecessor in bst other than jus iterating thru whole thing",
+    "output_text": "i guess i still need to work "
+  },
+  {
+    "input_text": "binary search tree",
+    "output_text": "bst "
+  },
+  {
+    "input_text": "wdym sorry im thinking of iterating thru the whole thing to find successor but is there a way to look from curnode say cur is the node that i want to find successor for obv i can jus iterate through entire thing and find the closest number larger than cur but is there abetter way",
+    "output_text": "just check your child before u move down or go through twice "
+  },
+  {
+    "input_text": "thanks i figured it out",
+    "output_text": "you re not iterating through the entire thing "
+  },
+  {
+    "input_text": "yipppeee thanks this message responded to an earlier message i figured it out this message responded to an earlier message im gonna apply today too",
+    "output_text": "its only the path to your node oheight is pretty good if you want just keep an array of the order you re traversing in "
+  },
+  {
+    "input_text": "lmfao yeah bro prayge",
+    "output_text": "theyre gonna reject me again lmfao "
+  },
+  {
+    "input_text": "bro did u read this weeks jjk chap i completely forgot abt it but so funny",
+    "output_text": ""
+  },
+  {
+    "input_text": "so funny jujutsu kaisen chapter 242 reactions liked by dorianzcgmailcom yo did u ever get a super puff i rmb u were joking abt it 2 yrs ago",
+    "output_text": "not yet "
+  },
+  {
+    "input_text": "i was considering it im not gonna take your advice i rly want a puff but which",
+    "output_text": "i have the vest lol "
+  },
+  {
+    "input_text": "gulp was actually looking at the atom as well",
+    "output_text": "thorium hoody mens warm versatile standalone hoody insulated with responsiblysourced goose down the thorium hoody was previously the thorium ar hoody "
+  },
+  {
+    "input_text": "800 is crazy what temp is it rated for",
+    "output_text": "thorium sv hoody mens outstanding warmth and zonal weather protection in a down hoody for severe cold "
+  },
+  {
+    "input_text": "idk if thats arc or pata 800 is crazy this message responded to an earlier message what temp is it rated for this message responded to an earlier message",
+    "output_text": "this "
+  },
+  {
+    "input_text": "yeah bro why u sending to me then",
+    "output_text": "hmm atom is way to thin idk i wouldnt get arc as a winter jacket tbh i rlly like my parajumper "
+  },
+  {
+    "input_text": "the long bear from parajumpers is a long downfilled puffer coat with extremely light memory effect poly fabric and a water repellent treatment for added weathe  sporting life online dayum im tryna retire my long coat yk the one i have",
+    "output_text": "atom is thin but the other ones look thicker "
+  },
+  {
+    "input_text": "well maybe it would b a dif story if it was warm",
+    "output_text": "atom is thin but this message responded to an earlier message the other ones look thicker this message responded to an earlier message lol i feel so swag "
+  },
+  {
+    "input_text": "but i hate being immobile looking for smt to end closer to my waist",
+    "output_text": "in my coat "
+  },
+  {
+    "input_text": "also i dont like the puffers w the little folds i prefer the large folds",
+    "output_text": "i feel like "
+  },
+  {
+    "input_text": "ykwim",
+    "output_text": "hm well "
+  },
+  {
+    "input_text": "and then id rather wear thermals under me that one is large fold and cool",
+    "output_text": "this this message responded to an earlier message "
+  },
+  {
+    "input_text": "yeah i like nuptse",
+    "output_text": "but u like the puffer texture on the outside "
+  },
+  {
+    "input_text": "hehe",
+    "output_text": "  "
+  },
+  {
+    "input_text": "yeah lol thats why i wanted to ask what u thought of super puff i like the silhouette wanted to try it on but like thoughts",
+    "output_text": "  this message responded to an earlier message just get what u like matters more than anything "
+  },
+  {
+    "input_text": "hood watch yeah ill keep that in mind i like puffiness of nuptse but colors of super better",
+    "output_text": "i think it looks good i like it more than the nuptse personally cause it has a hood but if u get a nuptse with a hood theyre both nice reactions liked by me "
+  },
+  {
+    "input_text": "lol took hood off cur jacket cuz it was covering 13 of vision i like the fitted hood that most nice jackets have",
+    "output_text": "hood is most important imo "
+  },
+  {
+    "input_text": "swag thats cool i like the bottom strings but still i am more into the ones that end the waist",
+    "output_text": "yeah macculloch parka inspired by our iconic snow mantra parka the macculloch parka is updated with contemporary details for the urban explorer this modern silhouette features reflective bands across the chest and hood to promote visibility after dark plenty of large interior and exterior pockets ensure essentials are easily accessible i these are so cool "
+  },
+  {
+    "input_text": "i heard not warm i wonder how much down is in the uniqlo ones i hate when they gatekeep that",
+    "output_text": "yeah lol the uniqlo ultra light down looks kinda very nice "
+  },
+  {
+    "input_text": "yeah i didnt know that that was the point of shells til recently like mind blown",
+    "output_text": "oh i mean i would wear a shell over i t idk "
+  },
+  {
+    "input_text": "shell over puffer nah i always saw puffers as outermost later",
+    "output_text": "bro discovered layering "
+  },
+  {
+    "input_text": "shell over what shell",
+    "output_text": "reactions loved by me "
+  },
+  {
+    "input_text": "zamn how is the puffer so thin im used to huge michelin man show puffer",
+    "output_text": "puffer its warm "
+  },
+  {
+    "input_text": "spyder i see wukko uwukko on x its not your internet youtube now makes you wait 5 extra seconds as a penalty for not using google chrome this issue is 100 artificial and hardcoded changing the user agent to google chrome magically fixes the timeout u have any good hackathon ideas",
+    "output_text": "idk its just some spyder puffer "
+  },
+  {
+    "input_text": "for me drop em bro i need to win hack western this weekend",
+    "output_text": "ye "
+  },
+  {
+    "input_text": "wdym",
+    "output_text": "nah i dont think its what ur looking for "
+  },
+  {
+    "input_text": "insane jjk chapter wdym this message responded to an earlier message",
+    "output_text": ""
+  },
+  {
+    "input_text": "m we have arough idea i think",
+    "output_text": "its just something iwanna make "
+  },
+  {
+    "input_text": "yeah did u see jjk",
+    "output_text": "ay glgl "
+  },
+  {
+    "input_text": "ye if it was normal i woulda messaged u in the morning",
+    "output_text": "is it that insane let me read "
+  },
+  {
+    "input_text": "my goat jjk mya jjkmya on x editors comment at the end of jjk243 what is kenjaku plotting on the brink of death jjkspoilers no way he actually dies here he must take over takaba or smt",
+    "output_text": "bro came back from africa "
+  },
+  {
+    "input_text": "unless like sukuna is the final villain",
+    "output_text": "yeah that would be too easy "
+  },
+  {
+    "input_text": "something more to come i fear",
+    "output_text": "kenjaku died too easily not satisfying gege wouldnt do that "
+  },
+  {
+    "input_text": "bro fought farmers for 1000 years this chapter awesome i fw this fight",
+    "output_text": ""
+  },
+  {
+    "input_text": "big deals mountains of play now until november 27 enjoy up to 30 off select outdoor gear score something for yourself or find the perfect gift for that special someone tiktok   reese gyllenhammer 228k likes 771 comments  pov flooding in new york but you spent 600 on an arcteryx jacket for instagram pictures  u rn",
+    "output_text": "fax "
+  },
+  {
+    "input_text": "how come",
+    "output_text": "struggling rn bro "
+  },
+  {
+    "input_text": "what is",
+    "output_text": "shit be tuff "
+  },
+  {
+    "input_text": "",
+    "output_text": "also ppl got summer job alr i be slacking too hard "
+  },
+  {
+    "input_text": "for your fall bro i got no summer",
+    "output_text": "man "
+  },
+  {
+    "input_text": "ridiculousness bro u gonna do that or u gonna remain",
+    "output_text": "they just line up winter and summer and then just do it in summer study double "
+  },
+  {
+    "input_text": "i guess so",
+    "output_text": "idk depends on the company lol "
+  },
+  {
+    "input_text": "yeah bark like a dog",
+    "output_text": "if i get google i ll do wtv "
+  },
+  {
+    "input_text": "no questions asked",
+    "output_text": "do that already woof woof if its like blackberry then nah lol "
+  },
+  {
+    "input_text": "nah for them",
+    "output_text": "do that already this message responded to an earlier message woof woof this message responded to an earlier message "
+  },
+  {
+    "input_text": "jovzkie animation jovzkyanimation on x katsu sa so i found a new brush and customized it to resemble a bit of gege s it s still not looking close to it but i had fun with it here are gojo s talented students ps i redid the yuta jjk jujutsukaisen yuji maki yuta yuuta hakari gojo kenjaku sukuna bro look at these this is so cool",
+    "output_text": "ye "
+  },
+  {
+    "input_text": "yee bro yk what ep it is today hahahhahahahhahahahahhahahahahahhahahahahahahahahhahahahahgahahaa",
+    "output_text": "sheesh let me look after "
+  },
+  {
+    "input_text": "hehehhahahahehhehahea bro cant wait to see anime only reaction",
+    "output_text": "namami "
+  },
+  {
+    "input_text": "",
+    "output_text": ""
+  },
+  {
+    "input_text": "yeah i like this a lot best way to keep everything youve done i was sad the old one was jus perma erased",
+    "output_text": "dorian chen dorianchencom we ball with subdomains "
+  },
+  {
+    "input_text": "old old is like fundamentally the same as this one ur jus talking abt the vertical scroll rows of 2",
+    "output_text": "too bad i dont have the old old one "
+  },
+  {
+    "input_text": "yeah i like does page link to gallery anywhere",
+    "output_text": "yeah its nice lowkey i mean this way i can put some projects on my domain "
+  },
+  {
+    "input_text": "links to obsidian",
+    "output_text": "edited 3 seconds later dorianchendotcom "
+  },
+  {
+    "input_text": "",
+    "output_text": "wdym dorianchencom links to the gallery "
+  },
+  {
+    "input_text": "oh yeah there it is i didnt c",
+    "output_text": "check out my gallery "
+  },
+  {
+    "input_text": "i saw the thieve",
+    "output_text": "dbrand dbrand on x casetify stole our products now we re suing them here s how we found out 16 "
+  },
+  {
+    "input_text": "bro stealing their serial numbers is crazy lol",
+    "output_text": "crazy "
+  },
+  {
+    "input_text": "like how does that get through qc this is ridiculous vinland saga ch 207 thousand year voyage part 16 mangadex read vinland saga ch 207 thousand year voyage part 16 on mangadex new vinland",
+    "output_text": "ikr "
+  },
+  {
+    "input_text": "he jus tanked that lnu",
+    "output_text": "damn wtf the inu imu "
+  },
+  {
+    "input_text": "dayum hack western is so big",
+    "output_text": "crazy "
+  },
+  {
+    "input_text": "it jus started today bruh",
+    "output_text": "u win "
+  },
+  {
+    "input_text": "i jus mean its so many more ppl than i thought",
+    "output_text": "i mean "
+  },
+  {
+    "input_text": "which is dope katsu sa",
+    "output_text": "you will win "
+  },
+  {
+    "input_text": "gyat sigh one of our teammates caught crazy sickness",
+    "output_text": "no sleep "
+  },
+  {
+    "input_text": "im a bozo my buddy w me i found out hes a backend demon so me him make the model and our friend gotta do all the front end i gotta help her",
+    "output_text": "gg its ok u can carry i believe "
+  },
+  {
+    "input_text": "whats that mean bro this is bozo architecture",
+    "output_text": "damn mvc architecture "
+  },
+  {
+    "input_text": "datum thats me",
+    "output_text": "like model view controller "
+  },
+  {
+    "input_text": "bag secured earlier whats that mean this message responded to an earlier message bro this is bozo architecture this message responded to an earlier message",
+    "output_text": "thats kinda based lol "
+  },
+  {
+    "input_text": "havent worn yet lol later",
+    "output_text": "fit pic "
+  },
+  {
+    "input_text": "datum this message responded to an earlier message thats me this message responded to an earlier message bro hack western does patagonia merch thats so sick",
+    "output_text": "sadge like model view controller this message responded to an earlier message "
+  },
+  {
+    "input_text": "yeah this is bigger than i thought lowkey like they gave us beanies as well which is coo u gotta cop one of these for u",
+    "output_text": "rlly thats cool htn got no sponsorhisp like that "
+  },
+  {
+    "input_text": "nah id win b yeah this is bigger than i thought lowkey this message responded to an earlier message like they gave us beanies as well which is coo this message responded to an earlier message i wanna join the team next yr",
+    "output_text": "i got one alr "
+  },
+  {
+    "input_text": "nah id win b this message responded to an earlier message this message responded to an earlier message",
+    "output_text": "i got one alr this message responded to an earlier message "
+  },
+  {
+    "input_text": "dayum i think u did show me bro hw bag is like lapel not jus a canvas tote where they getting this money from",
+    "output_text": "ya "
+  }
+]
