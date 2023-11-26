@@ -1,6 +1,10 @@
-nav {
+@import "@fontsource/roboto"; 
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/400-italic.css";
 
-    height: 5rem;
+nav {
+    background-color: #06141F;
+    height: 6rem;
     left: 10px;
     right: 10px;
     display: flex;
@@ -9,12 +13,12 @@ nav {
     top: 0;
     left: 0;
     z-index: 100;
-    border-radius: 40px;
     justify-content: space-between;
     gap: 5rem;
-  }
+    width: 100%;
+}
   
-  .buttons {
+.buttons {
     color: #fff;
     height: 100%;
     display: flex;
@@ -22,32 +26,75 @@ nav {
     align-items: center;
     position: relative;
     margin-right: 10%;
-  }
-  .title-box {
+}
+.title-box {
     margin-left: 10%;
     margin-top: 10px;
-  }
-  .buttons-inner {
+    text-decoration: none;
+}
+.buttons-inner {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4.5rem;
-   
-  }
-  
-  .each-button {
-    font-family: Cocogoose;
+
+}
+
+.each-button {
+    font-family: "Roboto";
     color: white;
     font-size: 20px;
     text-shadow: 2px 2px 2px #000000;
-  
-  }
-  
-  .title {
-    font-family: CocogooseI;
+
+}
+
+.title {
+    font-family: "Roboto";
     color: #FFFEF2;
     font-size: 60px;
     text-shadow: 2px 2px 2px #000000;
-    
-  }
-  
+
+}
+
+ul, li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a.each-button{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+}
+
+a.active.navbar-link.nav-link{
+    font-family: "Roboto";
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    font-size: 1.5vw;
+}
+
+button.button{
+    background-color: #E9985E;
+    border-radius: 0.5vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.05vw;
+    border: 1vw #e68c4c;
+}
+
+a.navbar-link.nav-link{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+    color: white;
+}
