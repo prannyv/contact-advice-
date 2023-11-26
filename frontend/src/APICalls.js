@@ -1,26 +1,33 @@
-const baseURL = ""
+const baseURL = "http://172.30.227.143:49152/"
+async function postConversation(modelID, conversation){
+    const payload = {
+        query: conversation
+    };
 
-
-async function postConversation(){
-    return 1;
-}
-async function f(modelID, conversation){
-    let formData = new FormData();
-    formData.append("convesation", conversation);
-
-    try{
-        const resp = await fetch(baseURL + "modelID", {
+    try {
+        const resp = await fetch(baseURL + "model/" + modelID, {
             method: "POST",
-            body: formData
-        })
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
 
-        if(!resp.ok){
-            throw new Error("Network stupid u idiot")
+        if (!resp.ok) {
+            throw new Error("Network response was not ok");
         }
-    }catch (error){
+
+        const data = await resp.json();
+        return data;
+    } catch (error) {
         console.error("Fetch error", error);
         throw error;
     }
 };
 
-export { postConversation };
+const callAPI = async () =>{
+    const resp = await postConversation("pranav", "based on the messages would pranav approve of a goose down")
+    console.log(resp);
+}
+
+callAPI();

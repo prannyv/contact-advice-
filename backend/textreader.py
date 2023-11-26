@@ -4,6 +4,7 @@ import string
 import os
 
 def scrapData(name, readFilename, outputFile=0):
+    print(os.getcwd())
     if outputFile == 0: outputFile = f"{name}_Output.json"
 
     writeFilename = "cleandorian.txt"
@@ -106,19 +107,20 @@ def scrapData(name, readFilename, outputFile=0):
             continue #remove all lines with files and links
 
 
-        tempString += line + " (+)"
+        tempString += line + " "
 
 
     combined_arrays = zip(myMessages, friendMessages)
 
     # Create a list of dictionaries
-    json_data = [{'input_text': col1, 'output_text': col2} for col1, col2 in combined_arrays]
+    json_data = [{'input_text': col1, 'output_text': col2} for col1, col2 in combined_arrays][-50:]
+    print(json_data)
 
     # # Convert the list of dictionaries to JSON
     json_str = json.dumps(json_data, indent=2)
 
     # # Write JSON to a file
-    with open('output.jsonl', 'w') as json_file:
+    with open(outputFile, 'a+') as json_file:
          json_file.write(json_str)
 
     readingFile.close()
