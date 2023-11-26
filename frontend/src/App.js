@@ -1,4 +1,5 @@
 import './App.css';
+import { About } from './components/About';
 import { Main } from './components/Main';
 import { Message } from './components/Message';
 import { NavBar } from './components/NavBar';
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/main' Component={Main} />  
           <Route path='/message' Component={Message} />
+          {/* <Route path='/about' Component={About} /> */}
         </Routes>
       </BrowserRouter>
     </div>

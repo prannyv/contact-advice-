@@ -13,7 +13,8 @@ test
 # Config and Passwords
 config.json
 config.js
-config.
+config.py
+secrets.py
 
 # Distribution / packaging
 .Python
