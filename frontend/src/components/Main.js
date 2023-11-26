@@ -38,7 +38,7 @@ export const Main = () => {
                             <a href="/Selection">
                             <button yell
                             // onClick={() => {postConversation("ethan", "what is your fav colour");}}
-                            style={{ height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E" }}>Start Now!</button>
+                            style={{ height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E" , cursor:"pointer"}}>Start Now!</button>
                             </a>
                     </div>
                 </div>
