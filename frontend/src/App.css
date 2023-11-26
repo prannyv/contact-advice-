@@ -8,7 +8,7 @@ body{
 
 .App {
   color: white;
-  background-image: url('./images/bg.png');
+  background-color: #03152F;
   background-repeat: no-repeat;
   background-size: contain;
 }
