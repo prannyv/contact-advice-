@@ -5,7 +5,7 @@ export const About = () => {
 
 
     return(
-        <div>
+        <div className="about">
             <div style={{backgroundColor: "red", height: "4rem"}}></div>
 
             {/* container for all the horizontal cards */}
