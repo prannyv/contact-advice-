@@ -45,10 +45,8 @@ body{
 }
 
 .main-inputfield{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 25vw;
+  margin-left: 12vw;
+  margin-top: 8vw;
 }
 
 .main-input{
@@ -60,7 +58,7 @@ body{
 }
 
 .main-button{
-  background-image: url('C:\Users\lecia\OneDrive\Documents\GitHub\contact-advice-\frontend\src\images\send.png');
+  background-image: url('../src/images/send.png');
   background-size: cover;
   width: 2vw;
   height: 2vw;
@@ -71,8 +69,8 @@ body{
 }
 
 .main-text{
-  margin-left: 41.5vw;
-  margin-top: 15vw;
+  margin-left: 13vw;
+  margin-top: 20vw;
 }
 
 .main-data{
