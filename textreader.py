@@ -1,3 +1,5 @@
+import json
+
 writeFilename = "cleandorian.txt"
 writingFile = open(writeFilename, "w")
 write2 = open("cleanme.txt", "w")
@@ -55,9 +57,28 @@ for line in readingFile:
     tempString += line + " (+)"
 
 
-print(len(myMessages))
-print(len(friendMessages))
-for item in myMessages:
-    if not item:
-        print("hey")
+combined_arrays = zip(myMessages, friendMessages)
+
+# Create a list of dictionaries
+json_data = [{'input_text': col1, 'output_text': col2} for col1, col2 in combined_arrays]
+
+# # Convert the list of dictionaries to JSON
+json_str = json.dumps(json_data, indent=2)
+
+# # Write JSON to a file
+# with open('output.jsonl', 'w') as json_file:
+#     json_file.write(json_str)
+
+
+#Write JSONL to a file
+with open("output.jsonl", 'w') as jsonl_file:
+    for entry in json_data:
+        jsonl_file.write(json.dumps(entry) + '\n')
+
+
+# print(len(myMessages))
+# print(len(friendMessages))
+# for item in myMessages:
+#     if not item:
+#         print("hey")
 
