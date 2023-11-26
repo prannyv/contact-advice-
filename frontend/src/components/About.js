@@ -105,9 +105,9 @@ export const About = () => {
                         <span style={{fontSize: "28px", color: "#FAFAFA", fontWeight: "bold"}}>friends, knowing that </span>
                         <span style={{fontSize: "28px", color: "#4E9DE0", fontWeight: "bold"}}>you're never truly alone 🌎</span>
                     </p>
-
-                    <button style={{marginTop: "2rem", marginBottom: "8rem", height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E"}}>Start Now!</button>
-
+                    <a href="/Selection">
+                        <button style={{marginTop: "2rem", marginBottom: "8rem", height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E"}}>Start Now!</button>
+                    </a>
                 </div>
 
 
