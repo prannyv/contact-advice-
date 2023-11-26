@@ -15,24 +15,6 @@ export const Main = () => {
         console.warn(val.target.value);
     }
 
-    useEffect(() => {
-        let isMounted = true; // Track whether the component is mounted
-
-        const fetchData = async () => {
-            const response = await postConversation();
-            if (isMounted) {
-                // Update state only if the component is still mounted
-                // Do something with the response if necessary
-            }
-        };
-
-        fetchData();
-
-        // Cleanup function to set isMounted to false when the component unmounts
-        return () => {
-            isMounted = false;
-        };
-    }, [print]); // Dependency array
 
 
     return (

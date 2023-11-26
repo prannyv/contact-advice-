@@ -16,19 +16,27 @@ export const Message = () => {
     const sendMessage = (e) => {
         e.preventDefault();
         if(input.trim()){
-            setMessage(prevMessage => [...prevMessage, input]);
+            // Add the user message
+            setMessage(prevMessages => [
+                ...prevMessages, 
+                input, // User message
+                "Auto Message 1", // Additional messages
+                "Auto Message 2",
+                "Auto Message 3"
+            ]);
             setInput("");
         }
     };
+    
 
     return(
         <div className="chat-container">
             <div className="bg">
-                <div className="chat-messages">
-                    {messages.map((message, index) => (
-                        <Chat key={index} contents={message}/>
-                    ))}
-                </div>
+            <div className="chat-messages">
+                {messages.map((message, index) => (
+                    <Chat key={index} contents={message} index={index} />
+                ))}
+            </div>
                 <div className="chat-input">
                     <form className="form" onSubmit={sendMessage}>
                         <input 
