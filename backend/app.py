@@ -1,3 +1,4 @@
-import openai
+import numpy
 
-print(openai.__version__)
+
+print(numpy.array([1, 2, 3, 4]))
