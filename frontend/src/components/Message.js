@@ -12,6 +12,8 @@ export const Message = () => {
     const [input, setInput] = useState("");
     const [messages, setMessage] = useState([]);
 
+    
+
 
     const sendMessage = (e) => {
         e.preventDefault();

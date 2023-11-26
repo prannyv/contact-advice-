@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
-//import { postConversation } from "../APICalls";
+// import { postConversation } from "../APICalls";
 import { About } from "./About";
 import { PersonCard } from "./PersonCard";
 import { Selection } from "../Selection";
 
-const postConversation = 2;
+// const postConversation = 2;
 
 export const Main = () => {
     const [data, setData] = useState(null);
@@ -18,24 +18,24 @@ export const Main = () => {
         console.warn(val.target.value);
     }
 
-    useEffect(() => {
-        let isMounted = true; // Track whether the component is mounted
+    // useEffect(() => {
+    //     let isMounted = true; // Track whether the component is mounted
 
-        const fetchData = async () => {
-            const response = await postConversation();
-            if (isMounted) {
-                // Update state only if the component is still mounted
-                // Do something with the response if necessary
-            }
-        };
+    //     const fetchData = async () => {
+    //         const response = await postConversation();
+    //         if (isMounted) {
+    //             // Update state only if the component is still mounted
+    //             // Do something with the response if necessary
+    //         }
+    //     };
 
-        fetchData();
+    //     fetchData();
 
-        // Cleanup function to set isMounted to false when the component unmounts
-        return () => {
-            isMounted = false;
-        };
-    }, [print]); // Dependency array
+    //     // Cleanup function to set isMounted to false when the component unmounts
+    //     return () => {
+    //         isMounted = false;
+    //     };
+    // }, [print]); // Dependency array
 
 
     return (
