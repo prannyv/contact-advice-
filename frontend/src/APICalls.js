@@ -1,5 +1,5 @@
 const baseURL = "http://172.30.227.143:49152/"
-async function postConversation(modelID, conversation){
+export async function postConversation(modelID, conversation){
     const payload = {
         query: conversation
     };
@@ -25,9 +25,3 @@ async function postConversation(modelID, conversation){
     }
 };
 
-const callAPI = async () =>{
-    const resp = await postConversation("pranav", "based on the messages would pranav approve of a goose down")
-    console.log(resp);
-}
-
-callAPI();
