@@ -1,9 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import { postConversation } from "../APICalls";
+//import { postConversation } from "../APICalls";
 import { About } from "./About";
 import { PersonCard } from "./PersonCard";
 import { Selection } from "../Selection";
+
+const postConversation = 2;
 
 export const Main = () => {
     const [data, setData] = useState(null);

@@ -1,0 +1,19 @@
+.message{
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.message > p{
+    background-color: #007AFF;
+    font-size: medium;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-right: auto;
+    
+}
