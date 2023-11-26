@@ -5,6 +5,7 @@ import { Message } from "./components/Message";
 import { NavBar } from "./components/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Loading } from "./components/Loading";
+import { Selection } from './Selection';
 
 function App() {
   return (
@@ -12,9 +13,8 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/main" Component={Main} />
-          <Route path="/message" Component={Message} />
-          <Route path="/loading" Component={Loading} />
+          <Route path='/main' Component={Main} />  
+          <Route path='/message' Component={Message} />
           {/* <Route path='/about' Component={About} /> */}
         </Routes>
       </BrowserRouter>

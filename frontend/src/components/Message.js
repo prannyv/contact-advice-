@@ -1,23 +1,46 @@
-import { Container, Row , Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
+import {Navbar, Container, Nav} from "react-bootstrap";
+import React from 'react'
+import './Message.css'
+import {
+  BrowserRouter as Router,
+  Link
+} from 'react-router-dom';
+import Chat from "./Chat";
 
 export const Message = () => {
+    const [input, setInput] = useState("");
+    const [messages, setMessage] = useState([]);
+
+
+    const sendMessage = (e) => {
+        e.preventDefault();
+        if(input.trim()){
+            setMessage(prevMessage => [...prevMessage, input]);
+            setInput("");
+        }
+    };
+
     return(
-        <div className="message">
-            <section className="message-rectangle">
-                <Container>
-                    <Row>
-                        <Col>
-                        <div className="message-title-parent">
-                            <div className='message-title-bg'></div>
-                            <div className='message-title'></div>
-                            <div className="message-header"></div>
-                            <p className="message-header-title">TO: HACK WESTERN 10</p>
-                        </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
+        <div className="chat-container">
+            <div className="bg">
+                <div className="chat-messages">
+                    {messages.map((message, index) => (
+                        <Chat key={index} contents={message}/>
+                    ))}
+                </div>
+                <div className="chat-input">
+                    <form className="form" onSubmit={sendMessage}>
+                        <input 
+                        value={input} 
+                        onChange={(e) => setInput(e.target.value)}
+                        placeholder="iMessage" 
+                        type="text"/>
+                        <button onClick={sendMessage}>Send</button>
+
+                    </form>
+                </div>
+            </div>
         </div>
     )
 }

@@ -94,6 +94,14 @@ button.button{
 a.navbar-link.nav-link{
     list-style-type: none;
     text-decoration: none;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    color: white;
+}
+
+a.navbar-link1.nav-link{
+    list-style-type: none;
+    text-decoration: none;
     font-size: 1.2vw;
     letter-spacing: 0.1vw;
     color: white;

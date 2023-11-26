@@ -2,7 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 //import { postConversation } from "../APICalls";
 import { About } from "./About";
-
+import { PersonCard } from "./PersonCard";
+import { Selection } from "../Selection";
 
 const postConversation = 2;
 
@@ -15,10 +16,10 @@ export const Main = () => {
         setPrint(false);
         console.warn(val.target.value);
     }
-    
+
     useEffect(() => {
         let isMounted = true; // Track whether the component is mounted
-    
+
         const fetchData = async () => {
             const response = await postConversation();
             if (isMounted) {
@@ -26,25 +27,25 @@ export const Main = () => {
                 // Do something with the response if necessary
             }
         };
-    
+
         fetchData();
-    
+
         // Cleanup function to set isMounted to false when the component unmounts
         return () => {
             isMounted = false;
         };
     }, [print]); // Dependency array
-    
+
 
     return (
         <section className="main" id="main">
             <Container>
-                <div style={{backgroundImage: "url(../src/images/bg.png)", backgroundPosition: "center", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
+                <div style={{ backgroundImage: "url(../src/images/bg.png)", backgroundPosition: "center", backgroundSize: 'cover', backgroundRepeat: "no-repeat" }}>
                     <div className="main-text">
-                        <p style={{fontSize: "64px", fontWeight: "bold", lineHeight: "48px", marginBottom: "14px"}}>SpeedDial</p>
-                        <p style={{fontSize: "34px", fontWeight: "normal", lineHeight: "28px", marginBottom: "8px"}}>Connect with your inner circle — anytime, anywhere.</p>
+                        <p style={{ fontSize: "64px", fontWeight: "bold", lineHeight: "48px", marginBottom: "14px" }}>SpeedDial</p>
+                        <p style={{ fontSize: "34px", fontWeight: "normal", lineHeight: "28px", marginBottom: "8px" }}>Connect with your inner circle — anytime, anywhere.</p>
                     </div>
-                    <div style={{marginTop: "78px", marginLeft: "200px"}}>
+                    <div style={{ marginTop: "78px", marginLeft: "200px" }}>
                         {/* <input className="main-input" type="text" defaultValue="Go!" onClickonChange={getData}></input>
                         <button className="main-button" onClick={()=>setPrint(true)}></button>
                         {
@@ -53,11 +54,12 @@ export const Main = () => {
                             :null
                         } */}
 
-
-                        <button style={{height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E"}}>Start Now!</button>
+                        <a href="/Selection">
+                            <button style={{ height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E" }}>Start Now!</button>
+                        </a>
                     </div>
                 </div>
-                <div style={{height: "17rem"}}></div>
+                <div style={{ height: "17rem" }}></div>
             </Container>
 
             <Container>
@@ -65,6 +67,6 @@ export const Main = () => {
             </Container>
         </section>
 
-        
+
     )
 }
