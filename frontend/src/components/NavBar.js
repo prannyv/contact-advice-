@@ -38,7 +38,7 @@ export const NavBar = () => {
       <div className='buttons'>
         <ul     className='buttons-inner'>
           <li><Link to="/message" className='each-button'>Demo</Link></li>
-          <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
+          <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link1'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
         <button className='button'>Start Now!</button>
         </ul>
       </div>

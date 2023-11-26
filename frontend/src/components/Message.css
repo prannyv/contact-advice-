@@ -1,0 +1,55 @@
+@import "@fontsource/roboto";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/400-italic.css";
+body{
+    background-color: #03152F;
+}
+
+.bg{
+    background-color: white;
+    height: auto;
+    font-size: 10vw;
+    z-index: 100;
+    color: white;
+    margin-top: 5.5vw;
+}
+
+.chat-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-messages{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: auto;
+    padding: 10px;
+    max-height: 100vw;
+}
+
+.chat-input{
+    padding-left: 1.5vw;
+    background-color: #fff;
+}
+
+.chat-input > form{
+    flex: 1;
+}
+
+.chat-input > form > input{
+    width: 98%;
+    outline-width: 0;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 5px;
+}
+
+.chat-input > form > button{
+    display: none;
+}
+
+form.form{
+    margin-top: 1vw;
+}

@@ -3,14 +3,14 @@
 @import "@fontsource/noto-sans/400-italic.css";
 
 body{
-  background-image: url('./images/bg.png');
-  background-repeat: no-repeat;
-  background-size: contain;
   background-color: #03152F;
 }
 
 .App {
   color: white;
+  background-image: url('./images/bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .App-logo {
@@ -79,58 +79,4 @@ body{
 
 .main-data{
   align-self: flex-start;
-}
-
-/**Message**/
-.message-title-parent{
-  position: relative;
-}
-
-.message-title-bg {
-  position: absolute;
-  background-color: black;
-  border-radius: 5vw;
-  text-align: center;
-  margin-top: 3vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-bottom: 30vw;
-  padding: 20vw 44vw;
-  z-index: 0;
-}
-
-.message-title{
-  position: absolute;
-  background-color: white;
-  border-radius: 5vw;
-  text-align: center;
-  margin-top: 4vw;
-  margin-left: 6vw;
-  margin-right: 5vw;
-  padding: 19vw 43vw;
-  z-index: 1;
-}
-
-.message-header{
-  position: absolute;
-  background-color: #F2F1F6;
-  color: black;
-  margin-top: 4vw;
-  z-index: 2;
-  margin-left: 6vw; 
-  padding: 2.5vw 43vw; 
-  border-top-right-radius: 5vw;
-  border-top-left-radius: 5vw;
-  text-align: left;
-}
-
-.message p{
-  font-family: "Noto Sans";
-  position: absolute;
-  margin-top: 6vw;
-  z-index: 3;
-  margin-left: 10vw; 
-  text-align: left;
-  z-index: 3;
-  color: black;
 }
