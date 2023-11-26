@@ -7,24 +7,38 @@ import {
   Link
 } from 'react-router-dom';
 import Chat from "./Chat";
+import { postConversation } from "../APICalls";
 
 export const Message = () => {
     const [input, setInput] = useState("");
     const [messages, setMessage] = useState([]);
-
+    const [m1, setm1] = useState("");
+    const [m2, setm2] = useState("");
+    const [m3, setm3] = useState("");
     
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
 
 
     const sendMessage = (e) => {
         e.preventDefault();
         if(input.trim()){
+
+            setm1(postConversation("ethan", {input})['response']);
+            // sleep(200);
+            // setm2(postConversation("lecia", {input})['response']);
+            // sleep(200);
+            // setm3(postConversation("pranav", {input})['response']);
+            
+
             // Add the user message
             setMessage(prevMessages => [
                 ...prevMessages, 
                 input, // User message
-                "Auto Message 1", // Additional messages
-                "Auto Message 2",
-                "Auto Message 3"
+                m1, // Additional messages
+                m2,
+                m3
             ]);
             setInput("");
         }
