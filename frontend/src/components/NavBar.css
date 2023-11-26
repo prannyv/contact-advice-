@@ -13,9 +13,9 @@ nav {
     top: 0;
     left: 0;
     z-index: 100;
-    border-radius: 40px;
     justify-content: space-between;
     gap: 5rem;
+    width: 100%;
 }
   
 .buttons {
@@ -68,11 +68,13 @@ a.each-button{
     letter-spacing: 0.1vw;
 }
 
-a.title{
+a.active.navbar-link.nav-link{
+    font-family: "Roboto";
     list-style-type: none;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 0.5vw;
+    font-size: 1.5vw;
 }
 
 button.button{
@@ -86,4 +88,13 @@ button.button{
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 0.05vw;
+    border: 1vw #e68c4c;
+}
+
+a.navbar-link.nav-link{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+    color: white;
 }

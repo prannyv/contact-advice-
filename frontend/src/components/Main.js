@@ -35,7 +35,7 @@ export const Main = () => {
     
 
     return (
-        <section className="main" >
+        <section className="main" id="main">
             <Container>
                 <div style={{backgroundImage: "url(../src/images/bg.png)", backgroundPosition: "center", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
                     <div className="main-text">

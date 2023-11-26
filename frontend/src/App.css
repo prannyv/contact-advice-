@@ -1,7 +1,11 @@
 @import "@fontsource/noto-sans"; 
 @import "@fontsource/noto-sans/400.css"; 
 @import "@fontsource/noto-sans/400-italic.css";
+
 body{
+  background-image: url('./images/bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: #03152F;
 }
 
@@ -70,7 +74,7 @@ body{
 
 .main-text{
   margin-left: 13vw;
-  margin-top: 20vw;
+  padding-top: 15vw;
 }
 
 .main-data{
