@@ -1,5 +1,9 @@
+body{
+  background-color: #03152F;;
+}
+
 .App {
-  text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #03152F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-inputfield{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25vw;
+}
+
+.main-input{
+  height: 2vw;
+  width: 40vw;
+  border-radius: 3vw;
+  font-size: medium;
+  text-indent: 1vw;
+}
+
+.main-button{
+  background-image: url('C:\Users\lecia\OneDrive\Documents\GitHub\contact-advice-\frontend\src\images\send.png');
+  background-size: cover;
+  width: 2vw;
+  height: 2vw;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.7vw;
+  margin-left: 0.7vw;
+}
+
+.main-text{
+  margin-left: 41.5vw;
+  margin-top: 15vw;
+}
+
+.main-data{
+  align-self: flex-start;
 }
