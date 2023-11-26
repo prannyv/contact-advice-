@@ -9,21 +9,28 @@ export const Main = () => {
         setPrint(false)
         console.warn(val.target.value)
     }
+
+    
+
+
     return(
         <section className="main">
             <Container>
                 <div className="main-text">
-                    <h1>Hack Western</h1>
-                    <h1>NAME OF PROJECT</h1>
+                    <p style={{fontSize: "64px", fontWeight: "bold", lineHeight: "48px", marginBottom: "14px"}}>SpeedDial</p>
+                    <p style={{fontSize: "34px", fontWeight: "normal", lineHeight: "28px", marginBottom: "8px"}}>Connect with your inner circle — anytime, anywhere.</p>
                 </div>
-                <div className="main-inputfield">
-                    <input className="main-input" type="text" onChange={getData}></input>
+                <div style={{marginTop: "78px", marginLeft: "200px"}}>
+                    {/* <input className="main-input" type="text" defaultValue="Go!" onClickonChange={getData}></input>
                     <button className="main-button" onClick={()=>setPrint(true)}></button>
                     {
                         print?
                         <h1 className="main-data">{data}</h1>
                         :null
-                    }
+                    } */}
+
+
+                    <button style={{height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E"}}>Start Now!</button>
                 </div>
             </Container>
         </section>
