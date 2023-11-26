@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/main' Component={Main} />  
           <Route path='/message' Component={Message} />
+          {/* <Route path='/about' Component={About} /> */}
         </Routes>
       </BrowserRouter>
     </div>
