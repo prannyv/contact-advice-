@@ -49,7 +49,7 @@ class Model(Resource):
             index = VectorstoreIndexCreator().from_loaders([loader])
             resp = index.query(query, llm=ChatOpenAI())
             print(resp)
-
+            
             return {"response": resp}, 200
 
 

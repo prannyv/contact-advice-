@@ -25,9 +25,5 @@ async function postConversation(modelID, conversation){
     }
 };
 
-const callAPI = async () =>{
-    const resp = await postConversation("pranav", "based on the messages would pranav approve of a goose down")
-    console.log(resp);
-}
-
-callAPI();
+postConversation("isabelle", "would pranav recommend goose down");
+//export default postConversation;
