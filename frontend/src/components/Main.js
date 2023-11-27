@@ -1,41 +1,22 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
-//import { postConversation } from "../APICalls";
+// import { postConversation } from "../APICalls";
 import { About } from "./About";
 import { PersonCard } from "./PersonCard";
 import { Selection } from "../Selection";
 
-const postConversation = 2;
+// const postConversation = 2;
 
 export const Main = () => {
     const [data, setData] = useState(null);
     const [print, setPrint] = useState(false);
+    const [f, setF] = useState(null); // dont touch lmao
 
     function getData(val) {
         setData(val.target.value);
         setPrint(false);
         console.warn(val.target.value);
     }
-
-    useEffect(() => {
-        let isMounted = true; // Track whether the component is mounted
-
-        const fetchData = async () => {
-            const response = await postConversation();
-            if (isMounted) {
-                // Update state only if the component is still mounted
-                // Do something with the response if necessary
-            }
-        };
-
-        fetchData();
-
-        // Cleanup function to set isMounted to false when the component unmounts
-        return () => {
-            isMounted = false;
-        };
-    }, [print]); // Dependency array
-
 
     return (
         <section className="main" id="main">
@@ -54,9 +35,11 @@ export const Main = () => {
                             :null
                         } */}
 
-                        <a href="/Selection">
-                            <button style={{ height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E" }}>Start Now!</button>
-                        </a>
+                            <a href="/Selection">
+                            <button yell
+                            // onClick={() => {postConversation("ethan", "what is your fav colour");}}
+                            style={{ height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E" , cursor:"pointer"}}>Start Now!</button>
+                            </a>
                     </div>
                 </div>
                 <div style={{ height: "17rem" }}></div>

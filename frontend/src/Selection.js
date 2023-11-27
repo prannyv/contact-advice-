@@ -1,6 +1,14 @@
 import { Container, Row , Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { PersonCard } from "./components/PersonCard";
+import A1 from './images/avatar1.png';
+import A2 from './images/avatar2.png';
+import A3 from './images/avatar3.png';
+import A4 from './images/avatar4.png';
+import A5 from './images/avatar5.png';
+import A6 from './images/avatar6.png';
+import A7 from './images/avatar7.png';
+import A8 from './images/avatar8.png';
 
 export const Selection = () => {
 
@@ -18,7 +26,9 @@ export const Selection = () => {
                 </div>
                 <div style={{flex: 6}}></div>
                 <div style={{flex:2, marginTop: "110px"}}>
-                    <button style={{ width: "90px", height: "50px", borderRadius: "12px", fontSize: "14px", backgroundColor: "#4E9DE0", color: "#FAFAFA"}}>Continue → </button>
+                    <a href="/messages">
+                    <button style={{ width: "90px", height: "50px", borderRadius: "12px", fontSize: "14px", backgroundColor: "#4E9DE0", color: "#FAFAFA", cursor:"pointer"}}>Continue → </button>
+                    </a>
                 </div>
 
             </div>
@@ -27,16 +37,16 @@ export const Selection = () => {
             <div style={{display: "flex", flexDirection: "row", marginBottom: "55px"}}>
                 <div style={{flex: 0.35}} />
                 <div style={{flex: 1}}>
-                <PersonCard name="Pranav Varma" imgPath="../src/images/bg.png"></PersonCard>
+                <PersonCard name="Pranav Varma" imgPath={A1}></PersonCard>
                 </div>
                 <div style={{flex: 1}}>
-                    <PersonCard name="Ethan Rong" imgPath="../src/images/bg.png"></PersonCard>
+                    <PersonCard name="Ethan Rong" imgPath={A2}></PersonCard>
                 </div>
                 <div style={{flex: 1}}>
-                    <PersonCard name="Isabelle Gan" imgPath="../src/images/bg.png"></PersonCard>
+                    <PersonCard name="Isabelle Gan" imgPath={A3}></PersonCard>
                 </div>
                 <div style={{flex: 1}}>
-                    <PersonCard name="Lecia Cheng" imgPath="../src/images/bg.png"></PersonCard>
+                    <PersonCard name="Lecia Cheng" imgPath={A4}></PersonCard>
                 </div>
                 <div style={{flex: 0.35}} />
             </div>
@@ -46,16 +56,16 @@ export const Selection = () => {
             <div style={{display: "flex", flexDirection: "row", marginBottom: "80px"}}>
                 <div style={{flex: 0.35}} />
                 <div style={{flex: 1}}>
-                <PersonCard name="Pranav Varma" imgPath="../src/images/bg.png"></PersonCard>
+                <PersonCard name="Pranav Varma" imgPath={A5}></PersonCard>
                 </div>
                 <div style={{flex: 1}}>
-                    <PersonCard name="Ethan Rong" imgPath="../src/images/bg.png"></PersonCard>
+                    <PersonCard name="Ethan Rong" imgPath={A6}></PersonCard>
                 </div>
                 <div style={{flex: 1}}>
-                    <PersonCard name="Isabelle Gan" imgPath="../src/images/bg.png"></PersonCard>
+                    <PersonCard name="Isabelle Gan" imgPath={A7}></PersonCard>
                 </div>
                 <div style={{flex: 1}}>
-                    <PersonCard name="Lecia Cheng" imgPath="../src/images/bg.png"></PersonCard>
+                    <PersonCard name="Lecia Cheng" imgPath={A8}></PersonCard>
                 </div>
                 <div style={{flex: 0.35}} />
             </div>

@@ -1,5 +1,5 @@
 const baseURL = "http://172.30.227.143:49152/"
-async function postConversation(modelID, conversation){
+export async function postConversation(modelID, conversation){
     const payload = {
         query: conversation
     };
@@ -25,5 +25,3 @@ async function postConversation(modelID, conversation){
     }
 };
 
-postConversation("isabelle", "would pranav recommend goose down");
-//export default postConversation;

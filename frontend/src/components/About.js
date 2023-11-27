@@ -1,5 +1,10 @@
 import { Container, Row , Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
+import Pic1 from '../images/pic1.png';
+import Pic2 from '../images/pic2.png';
+import Pic3 from '../images/pic3.png';
+import Pic4 from '../images/pic4.png';
+import Pic5 from '../images/pic5.png';
 
 export const About = () => {
 
@@ -22,13 +27,14 @@ export const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div style={{flex: 2, backgroundColor: "yellow"}}>
-
+                    <div style={{flex: 2}}>
+                        <img src={Pic1} alt="Description" style={{ width: '60%', height: 'auto' , marginLeft: "3vw"}} />
                     </div>
+
                 </div>
                 <div style={{display: "flex", marginBottom: "18px"}}>
-                    <div style={{flex: 2, backgroundColor: "yellow"}}>
-
+                    <div style={{flex: 2}}>
+                        <img src={Pic2} alt="Description" style={{ width: '60%', height: 'auto', marginLeft: "9vw" }} />
                     </div>          
                     <div style={{flex: 3, marginBottom: "18px"}}>
                         <div style={{marginLeft: "6rem", marginRight: "4rem"}}>
@@ -57,13 +63,13 @@ export const About = () => {
                             </p>
                         </div>
                     </div>
-                        <div style={{flex: 2, backgroundColor: "yellow"}}>
-
+                        <div style={{flex: 2}}>
+                            <img src={Pic3} alt="Description" style={{ width: '60%', height: 'auto' , marginLeft: "3vw"}} />
                         </div>
                 </div>
                 <div style={{display: "flex", marginBottom: "18px"}}>
-                <div style={{flex: 2, backgroundColor: "yellow"}}>
-
+                <div style={{flex: 2}}>
+                    <img src={Pic4} alt="Description" style={{ width: '60%', height: 'auto' , marginLeft: "9vw"}} />
                 </div>          
                 <div style={{flex: 3}}>
                     <div style={{marginLeft: "6rem", marginRight: "4rem"}}>
@@ -90,8 +96,8 @@ export const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div style={{flex: 2, backgroundColor: "yellow"}}>
-
+                    <div style={{flex: 2}}>
+                        <img src={Pic5} alt="Description" style={{ width: '60%', height: 'auto' , marginLeft: "3vw"}} />
                     </div>       
                 </div>
 
@@ -105,9 +111,9 @@ export const About = () => {
                         <span style={{fontSize: "28px", color: "#FAFAFA", fontWeight: "bold"}}>friends, knowing that </span>
                         <span style={{fontSize: "28px", color: "#4E9DE0", fontWeight: "bold"}}>you're never truly alone 🌎</span>
                     </p>
-
-                    <button style={{marginTop: "2rem", marginBottom: "8rem", height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E"}}>Start Now!</button>
-
+                    <a href="/Selection">
+                        <button style={{marginTop: "2rem", marginBottom: "8rem", height: "5rem", width: "14rem", borderRadius: "8px", fontSize: "30px", fontWeight: "bold", border: "#BA7441", backgroundColor: "#E9985E"}}>Start Now!</button>
+                    </a>
                 </div>
 
 
