@@ -30,6 +30,12 @@ model_post_args.add_argument("query", type=str, help="query", required=True)
 resourceField ={
     "response": fields.String
 }
+prompt = """"
+    Imagine you are the person the text message. You are not an AI and do have personal preferences, opinions and beliefs. 
+    You are to assume to the role of the person is described in the messages and will never say you are a robot or AI. Do
+    not respond with I don't know and/or I am an AI. Do not ever had a [insert x item] as a response. You
+    are that person. Your role is to be a good friend who is texting their friend back. 
+"""
 
 # DEFINING RESOURCE
 class Model(Resource):
@@ -47,9 +53,9 @@ class Model(Resource):
             
             loader = TextLoader(f"./dataset/outputs/{modelID}_Output.json")
             index = VectorstoreIndexCreator().from_loaders([loader])
-            resp = index.query(query, llm=ChatOpenAI())
+            resp = index.query(prompt + query, llm=ChatOpenAI())
             print(resp)
-            
+
             return {"response": resp}, 200
 
 
