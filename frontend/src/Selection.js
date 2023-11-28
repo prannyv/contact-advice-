@@ -26,7 +26,7 @@ export const Selection = () => {
                 </div>
                 <div style={{flex: 6}}></div>
                 <div style={{flex:2, marginTop: "110px"}}>
-                    <a href="/messages">
+                    <a href="/message">
                     <button style={{ width: "90px", height: "50px", borderRadius: "12px", fontSize: "14px", backgroundColor: "#4E9DE0", color: "#FAFAFA", cursor:"pointer"}}>Continue → </button>
                     </a>
                 </div>

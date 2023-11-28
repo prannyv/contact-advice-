@@ -1,4 +1,4 @@
-const baseURL = "http://172.30.227.143:49152/"
+const baseURL = "http://172.20.10.3:49152/"
 export async function postConversation(modelID, conversation){
     const payload = {
         query: conversation
